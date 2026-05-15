@@ -10,4 +10,9 @@ public class HomeController {
     public String home() {
         return "Welcome to Jenkins Project!";
     }
+
+    @GetMapping("v2")
+    public String home2() {
+        return "Welcome to Jenkins Project!";
+    }
 }
